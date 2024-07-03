@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:github/Lesson%2011%20GitHub/photos.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const GitHub(),
+      home: const ConnectFiles(),
     );
   }
 }
@@ -32,8 +32,8 @@ class GitHub extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
-            width: 100,
-            height: 100,
+            width: 200,
+            height: 200,
             color: Colors.black,
           ),
         ],
